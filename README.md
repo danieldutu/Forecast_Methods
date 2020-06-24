@@ -11,7 +11,7 @@ I tried three different models and evaluated them using RMSE and MSE. I chose th
 
 # Model Performance
 
-I tried three different models:
+I tried three different models: <br>
 **ARIMA** <br>
 **Long Short Term Memory**  <br>
 **Prophet** <br>
