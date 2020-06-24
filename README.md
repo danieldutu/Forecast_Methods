@@ -17,6 +17,6 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 
 LSTM model far outperformed the other approaches on the test and validation sets.
 
-ARIMA: MAE = 
-Long Short Term Memory: MAE = 
-Prophet: MAE = 
+ARIMA: MAE =  <br>
+Long Short Term Memory: MAE =  <br>
+Prophet: MAE =  <br>
