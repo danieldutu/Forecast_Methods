@@ -17,15 +17,9 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 
 ARIMA model far outperformed the other approaches on the test sets, but the models weren't tuned at their maximum performance.
 
-	Models	RMSE Errors	MSE Errors
-0	ARIMA	0.765449	0.585912
-1	LSTM	1.328145	1.763970
-2	Prophet	1.591280	2.532170
 
 | Model | RMSE | MSE |
 | --- | --- | --- |
 | ARIMA | 0.765449 | 0.585912 |
-| --- | --- | --- |
 | LSTM | 1.328145| 1.763970 |
-| --- | --- | --- |
 | Prophet | 1.591280 | 2.532170|
