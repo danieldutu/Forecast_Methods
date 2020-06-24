@@ -15,8 +15,17 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 **Long Short Term Memory**  <br>
 **Prophet** <br>
 
-LSTM model far outperformed the other approaches on the test and validation sets.
+ARIMA model far outperformed the other approaches on the test sets, but the models weren't tuned at their maximum performance.
 
-ARIMA: MAE =  <br>
-Long Short Term Memory: MAE =  <br>
-Prophet: MAE =  <br>
+	Models	RMSE Errors	MSE Errors
+0	ARIMA	0.765449	0.585912
+1	LSTM	1.328145	1.763970
+2	Prophet	1.591280	2.532170
+
+| Model | RMSE | MSE |
+| --- | --- | --- |
+| ARIMA | 0.765449 | 0.585912 |
+| --- | --- | --- |
+| LSTM | 1.328145| 1.763970 |
+| --- | --- | --- |
+| Prophet | 1.591280 | 2.532170|
