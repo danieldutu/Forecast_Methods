@@ -11,9 +11,9 @@ I tried three different models and evaluated them using Mean Absolute Error. I c
 
 # I tried three different models:
 
-**ARIMA** 
-**Long Short Term Memory**  
-**Prophet** 
+**ARIMA** <br>
+**Long Short Term Memory**  <br>
+**Prophet** <br>
 
 LSTM model far outperformed the other approaches on the test and validation sets.
 
